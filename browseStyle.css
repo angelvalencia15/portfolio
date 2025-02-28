@@ -1,5 +1,7 @@
 #greeting{
+  font-size: 30px;
   animation: mymoves 2s infinite;
+  
 }
 @keyframes mymoves{
   from{color: blue;}
