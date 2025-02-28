@@ -1,0 +1,59 @@
+header{
+  text-align: center;
+  padding: 20px;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+
+}
+
+main{
+  text-align: center;
+  padding: 80px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 50x;
+  font-size: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+html{
+  background-color: black;
+  color: white;
+  font-family: 'Baloo 2', sans-serif;
+  font-style: normal;
+}
+fieldset{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border: 4px;
+  border-style: solid;
+  border-radius: 15px;
+  animation: rotateIn;
+  animation-duration: 3s;
+}
+button{
+  border-radius: 15px;
+}
+button:hover{
+  opacity: 0.5;
+}
+button:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input{
+  border-radius: 15px;
+}
+
+
+#usernameBox:hover{
+  background-color: silver;
+}

@@ -1,0 +1,53 @@
+#greeting{
+  animation: mymoves 2s infinite;
+}
+@keyframes mymoves{
+  from{color: blue;}
+  to{color: red;}
+}
+h1{
+  text-align: center;
+  animation: zoomInDown;
+  animation-duration: 1s;
+}
+html{
+  background-color: black;
+  color: white;
+  font-family: 'Baloo 2', sans-serif;
+  font-style: normal;
+}
+nav{
+  position: fixed;
+  top: 100px;
+  right:20px;
+  border: solid;
+  font-size: 30px;
+  animation: mymove 2s infinite;
+  text-align: center;
+  padding: 5px;
+  
+  
+}
+@keyframes mymove{
+  from{border-color: red;}
+  to{border-color:green;}
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 50x;
+  font-size:10px;
+}
+
+#homeNav:hover{
+  transform: scale(2);
+  z-index: 9;
+}
+#linkedIn:hover{
+  transform: scale(2);
+  z-index: 9;
+}
+
