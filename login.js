@@ -47,7 +47,7 @@ function validate_username(username) {
     }
     return;
   }
-  create_cookie(usernamebox.value);
+  create_cookie(usernameBox.value);
   //a loading screen that says successfully saved username
   window.location.assign('browse.html');
   return;
