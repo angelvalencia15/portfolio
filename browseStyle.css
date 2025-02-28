@@ -28,10 +28,6 @@ nav{
   
   
 }
-@keyframes mymove{
-  from{border-color: red;}
-  to{border-color:green;}
-}
 footer{
   position: fixed;
   bottom: 0;
@@ -40,14 +36,5 @@ footer{
   text-align: center;
   padding: 50x;
   font-size:10px;
-}
-
-#homeNav:hover{
-  transform: scale(2);
-  z-index: 9;
-}
-#linkedIn:hover{
-  transform: scale(2);
-  z-index: 9;
 }
 
