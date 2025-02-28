@@ -19,21 +19,21 @@ function get_username() {
   return "";
 }
 
-window.onload = function () {
+window.onload = function(){
   //check if currently on index.html
-  if (window.location.pathname.endsWith("index.html")) {
+  if (window.location.pathname.endsWith('browse.html')) {
     const username = get_username();
-
+    
     if (username) {
       // if username exists, display a greeting
-      const greetingSpan = document.getElementById("greeting");
+      const greetingSpan = document.getElementById('greeting');
       if (greetingSpan) {
         const textNode = document.createTextNode(`Hello, ${username}`);
         greetingSpan.appendChild(textNode);
       }
     } else {
-      // if no username is found, redirect to login page
-      window.location.replace("index.html");
+      // if no username is found, redirect to login.html
+      window.location.replace('index.html');
     }
   }
-}
+};
