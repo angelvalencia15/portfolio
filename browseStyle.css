@@ -67,8 +67,8 @@ a{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 1.5s ease;
-  background-color: skyblue;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
 
 .container:hover .overlay {
@@ -77,11 +77,10 @@ a{
 
 .text {
   color: white;
-  font-size: 12px;
+  font-size: 20px;
   position: absolute;
-  top: 85px;
-  left: 90px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-
