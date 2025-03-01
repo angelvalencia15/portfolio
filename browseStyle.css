@@ -1,7 +1,5 @@
 #greeting{
-  font-size: 30px;
   animation: mymoves 2s infinite;
-  
 }
 @keyframes mymoves{
   from{color: blue;}
@@ -18,18 +16,7 @@ html{
   font-family: 'Baloo 2', sans-serif;
   font-style: normal;
 }
-nav{
-  position: fixed;
-  top: 100px;
-  right:20px;
-  border: solid;
-  font-size: 30px;
-  animation: mymove 2s infinite;
-  text-align: center;
-  padding: 5px;
-  
-  
-}
+
 footer{
   position: fixed;
   bottom: 0;
@@ -38,5 +25,63 @@ footer{
   text-align: center;
   padding: 50x;
   font-size:10px;
+  
+}
+
+#topNav{
+  animation: slideInDown ease;
+  animation-duration: 3s;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  top: 20px;
+  right:20px;
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+a{
+  text-decoration: none; 
+  font-weight: 400;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.5s ease;
+  background-color: skyblue;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 85px;
+  left: 90px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
