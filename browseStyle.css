@@ -1,9 +1,15 @@
 #greeting{
+  font-weight: bold;
   animation: mymoves 2s infinite;
+
 }
 @keyframes mymoves{
   from{color: blue;}
   to{color: red;}
+  font-family: 'Baloo 2', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
 }
 h1{
   text-align: center;
@@ -69,6 +75,7 @@ a{
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+
 }
 
 .container:hover .overlay {
@@ -77,10 +84,17 @@ a{
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+#bannana{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  animation: mymoves 2s infinite;
 }
