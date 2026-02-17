@@ -6,10 +6,6 @@
 @keyframes mymoves{
   from{color: blue;}
   to{color: red;}
-  font-family: 'Baloo 2', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-
 }
 h1{
   text-align: center;
