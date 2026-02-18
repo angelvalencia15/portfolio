@@ -51,12 +51,12 @@ a{
 }
 .container {
   position: relative;
-  width: 30%
+  width: 50%
 }
 
 .image {
   display: block;
-  width: 20%;
+  width: 50%;
   height: auto;
 }
 
@@ -79,17 +79,22 @@ a{
 }
 
 .text {
-  color: white;
+  /*color: white;
+  padding: 5px;
   font-size: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+  font-size: 8px;
 }
-
-#bannana{
-  position: absolute;
-  top: 80px;
-  right: 50px;
+#usernameBox{
+  margin-right: 75%;
+  padding: 5px;
+  border: 4px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: red blue green yellow;
 }
