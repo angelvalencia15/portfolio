@@ -88,7 +88,7 @@ a{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); */
   text-align: center;
-  font-size: 8px;
+  font-size: 15px;
 }
 #usernameBox{
   margin-right: 75%;
@@ -97,4 +97,7 @@ a{
   border-style: solid;
   border-radius: 15px;
   border-color: red blue green yellow;
+  font-family: 'Baloo 2', sans-serif;
+  font-style: normal;
 }
+
