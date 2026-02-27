@@ -14,16 +14,27 @@
   <body>
     <div class="hero">
       <nav id="topNav">
-        <ul>
+        <ul id="navLi">
           <li>
             <a id="homeNav" href="index.html" target="_blank" rel="opener">
-              <img
-                src="https://cdn3.iconfinder.com/data/icons/essential-rounded/64/Rounded-31-512.png"
+              <figure>
+                  <img id="login"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwzNuH4ylMn2urUZvyDSTck659SwbqIR8mZA&s"
                 width="35"
-              />
+                />
+                <figcaption>login</figcaption>
+              </figure>
             </a>
           </li>
-      </nav>
+          <li>
+            <a id="exp" href="exp.html" target="_blank" rel="opener">
+              <figure>
+                <img id="projects" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-GZQ5GLuzh8-uwH33HJJUZFFzsTqXfhizBQ&s" width="35"/>
+                <figcaption> projects </figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
     </div>
     <header>
       <fieldset id="usernameBox">
@@ -32,17 +43,60 @@
         </span>
       </fieldset>
 
-      <h1>Learn about me!</h1>
+      <h1>About me!</h1>
     </header>
-    
-    <div class="container">
-      <img src="images/graduation.png" width=200 alt="Avatar" class="image">
-      <div class="overlay">
-        <div class="text">
-          <p><b>My name is Angel.</b> <br> I am a Sociology major at UCLA. With a strong foundation in programming languages like Python, Java, C++, and web-development, my interests are in Human-Computer Interaction. I wish to explore how human cognition can be integrated with computers to enhance interaction, intelligence, and usability.</p> 
+    <main>
+      <section id="whoAmI">
+        <h4 id="Q1"> Who am I?</h4>
+        <p> My name is Angel Anthony Valencia. I was born in the city of Los Angeles but raised in Long Beach. I am a first-generation Mexican-American Sociology major at the University of California, Los Angeles (UCLA). My goals in life are to lead the future “Valencia” generations into institutions that were once inaccessible to us.
+        <br>
+        My story at UCLA reflects what many first-generation students experience — trials and errors, limited guidance, imposter syndrome, and the pressure of carrying not only personal dreams, but family expectations. Navigating higher education without a blueprint forced me to learn resilience, independence, and self-advocacy.
+        <br>
+        Throughout my academic journey, I have learned many lessons, but the most significant has been understanding that struggle is not a sign of inadequacy — it is often evidence of growth. Being first-generation means breaking cycles, challenging doubt, and redefining what is possible. Every setback became preparation, and every obstacle strengthened my commitment to succeed — not just for myself, but for those who will come after me. </p>
+      </section>
+      <table id="myHobbies">
+            <h4> My Free Time! </h4>
+            <tbody>
+              <tr>
+                <td id="playSoccer"> 
+                  <img src="images/futbol.png">
+                  <h3> 🏆 Futbol ⚽️</h3>
+                </td>
+
+                <td id="eatFood"> 
+                  <img src="images/tacos.png">
+                  <h3> 🌮 Food 🌯</h3>
+                </td>
+              
+                <td id="fishHobby"> 
+                  <img src="images/fishTank.png">
+                  <h3> 🐠 Fishy 🐡 </h3>
+                </td>
+              
+                <td id="exercise"> 
+                  <img src="images/biking.png">
+                  <h3> 🚴🏼 Exercise 💪🏽</h3>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          
+
+
+      <div class="container">
+        <img src="images/graduation.png" width=200 alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+            <p><b>My name is Angel.</b> <br> I am a Sociology major at UCLA. With a strong foundation in programming languages like Python, Java, C++, and web-development, my interests are in Human-Computer Interaction. I wish to explore how human cognition can be integrated with computers to enhance interaction, intelligence, and usability.</p> 
+          </div>
         </div>
       </div>
-    </div>
+
+
+    </main>
+
+
+
 
     <footer>
       <hr />
@@ -95,3 +149,4 @@
     </footer>
   </body>
 </html>
+
