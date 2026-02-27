@@ -1,0 +1,37 @@
+html{
+  font-family: 'Baloo 2', sans-serif;
+  font-style: normal;
+}
+
+#topNav{
+  animation: bounceInRight ease;
+  animation-duration: 3s;
+  padding: 5px;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  padding: 2px;
+  /*display: flex; 
+  justify-content: space-between; */
+}
+#navLi{
+  position: static; 
+  display: block;
+  list-style: none; 
+}
+#projects, #login{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+figcaption{
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+#projSec{
+  margin-right: 15%;
+  border: 5px solid purple;
+}
+
+
