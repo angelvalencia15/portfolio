@@ -20,30 +20,30 @@ html{
 }
 
 footer{
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
-  padding: 50x;
+  padding: 50px;
   font-size:10px;
   
 }
 
 #topNav{
-  animation: slideInDown ease;
+  animation: bounceInRight ease;
   animation-duration: 3s;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-}
-li{
-  top: 20px;
-  right:20px;
+  padding: 5px;
   position: absolute;
-  display: inline-block;
-  list-style: none;
-  margin: 10px 15px;
+  top: 1px;
+  right: 0;
+  padding: 2px;
+  /*display: flex; 
+  justify-content: space-between; */
+}
+#navLi{
+  position: static; 
+  display: block;
+  list-style: none; 
 }
 a{
   text-decoration: none; 
@@ -66,11 +66,11 @@ a{
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: lightblue;
 
 }
 
@@ -89,6 +89,7 @@ a{
   -ms-transform: translate(-50%, -50%); */
   text-align: center;
   font-size: 15px;
+  padding: 20px;
 }
 #usernameBox{
   margin-right: 75%;
@@ -100,4 +101,33 @@ a{
   font-family: 'Baloo 2', sans-serif;
   font-style: normal;
 }
+figcaption{
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
 
+#projects, #login{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+#whoAmI{
+  border: 1px dotted blue;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  margin-right: 15%;
+}
+#Q1{
+  color: red;
+}
+
+#myHobbies{
+border: 1px dashed greenyellow;
+ padding: 5px;
+ margin: 0 auto 15px; 
+ border-collapse: separate;
+ border-spacing: 20px;
+
+}
