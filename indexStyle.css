@@ -1,9 +1,6 @@
 header{
   text-align: center;
   padding: 20px;
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 4s; /* don't forget to set a duration! */
-
 }
 
 main{
@@ -23,22 +20,35 @@ footer{
 
 
 @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
 html{
-  background-color: black;
-  color: white;
-  font-family: 'Baloo 2', sans-serif;
+  background-color: #e6dfc8;
+  color: #222;
+  font-family: "Courier New", monospace;
   font-style: normal;
 }
 fieldset{
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 20px;
-  border: 4px;
-  border-style: solid;
-  border-radius: 15px;
-  animation: rotateIn;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #fdfaf0;
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.3);
+  animation: heartBeat;
   animation-duration: 3s;
 }
+
+#stamp{
+  color: red;
+  border: 3px solid red;
+  display: inline-block;
+  padding: 5px 15px;
+  transform: rotate(-15deg);
+  margin-bottom: 20px;
+}
+
+
 button{
   border-radius: 15px;
 }
@@ -51,6 +61,16 @@ button:active{
 }
 input{
   border-radius: 15px;
+}
+
+#usernameBox:hover{
+  background-color: silver;
+}
+
+#fileInfo{
+  animation: fadeIn;
+  animation-duration: 5s;
+
 }
 
 
