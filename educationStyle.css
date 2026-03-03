@@ -1,0 +1,90 @@
+html{
+  font-family: 'Baloo 2', sans-serif;
+  font-style: normal;
+}
+
+#topNav{
+  animation: bounceInRight ease;
+  animation-duration: 3s;
+  padding: 5px;
+  position: absolute;
+  top: 1px;
+  right: 0;
+  padding: 2px;
+  /*display: flex; 
+  justify-content: space-between; */
+}
+#navLi{
+  position: static; 
+  display: block;
+  list-style: none; 
+}
+#projects, #login, #edu{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+}
+figcaption{
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+}
+#projSec{
+  margin-right: 15%;
+  border: 5px solid purple;
+}
+
+footer{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  font-size:10px;
+  background-color: black;
+  color: white;
+  
+}
+
+.container {
+  position: relative;
+  width: 50%
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightblue;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  /*color: white;
+  padding: 5px;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+}
