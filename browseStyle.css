@@ -89,13 +89,15 @@ figcaption{
 }
 
 #myHobbies{
- border: 1px dashed greenyellow;
- padding: 5px;
- margin: 0 auto 15px; 
- border-collapse: separate;
- border-spacing: 50px;
-
+  border: 3px solid #666;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 15px #888;
+  border-collapse: separate;
+  border-spacing: 40px;
 }
+
+
 
 #myHobbies td{
   background-color: white;
@@ -106,7 +108,6 @@ figcaption{
   width: 200px;
 }
 
-/* image inside polaroid */
 #myHobbies img{
   width: 100%;
   display: block;
@@ -115,26 +116,13 @@ figcaption{
 /* caption text */
 #myHobbies h3{
   margin-top: 10px;
-  color: lightgrey;
+  color: white;
+  background-color: black;
 }
 
-#whoAmI{
-  border: 1px dotted blue;
-  text-align: center;
-  font-size: 15px;
-  padding: 20px;
-  margin-right: 15%;
-  margin-left: 15%;
-}
-#Q1{
-  color: red;
-}
 
-#myHobbies{
-border: 1px dashed greenyellow;
- padding: 5px;
- margin: 0 auto 15px; 
- border-collapse: separate;
- border-spacing: 50px;
 
-}
+
+
+
+
