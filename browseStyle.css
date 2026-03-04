@@ -7,11 +7,7 @@
   from{color: blue;}
   to{color: red;}
 }
-h1{
-  text-align: center;
-  animation: zoomInDown;
-  animation-duration: 1s;
-}
+
 html{
   background-color: black;
   color: white;
@@ -35,7 +31,7 @@ footer{
   padding: 5px;
   position: absolute;
   top: 1px;
-  right: 0;
+  margin-left: 100%;
   padding: 2px;
   /*display: flex; 
   justify-content: space-between; */
@@ -70,6 +66,56 @@ figcaption{
   border: 1px solid black;
   border-radius: 10px;
   background-color: black;
+}
+
+#profile{
+  border: 4px;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 0.5px;
+  border-color: white;
+}
+
+#whoAmI{
+  border: 4px solid;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #333333;
+  border-color: darkgray;
+  color: grey;
+}
+
+#myHobbies{
+ border: 1px dashed greenyellow;
+ padding: 5px;
+ margin: 0 auto 15px; 
+ border-collapse: separate;
+ border-spacing: 50px;
+
+}
+
+#myHobbies td{
+  background-color: white;
+  padding: 10px 10px 35px 10px; /* thicker bottom like polaroid */
+  text-align: center;
+  box-shadow: 0px 5px 12px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  width: 200px;
+}
+
+/* image inside polaroid */
+#myHobbies img{
+  width: 100%;
+  display: block;
+}
+
+/* caption text */
+#myHobbies h3{
+  margin-top: 10px;
+  color: lightgrey;
 }
 
 #whoAmI{
